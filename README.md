@@ -24,3 +24,4 @@ Enter the dev environment with [devenv](https://devenv.sh/) (`direnv allow`, or 
 
 1. Create `<talk>/slides.md`, and put its assets in `<talk>/public/`, referenced as `/images/...`.
 2. Add `build:<talk>` and `dev:<talk>` scripts to `package.json`, following the existing ones.
+3. Link it in [`home.html`](./home.html), the root page.
