@@ -153,3 +153,10 @@ dist
 index.html
 .remote-assets
 components.d.ts
+
+# devenv
+.devenv*
+devenv.local.nix
+.direnv
+devenv.local.yaml
+.envrc.private
