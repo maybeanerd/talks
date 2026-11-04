@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "clear-dist": "rimraf ./dist",
-    "build": "pnpm clear-dist && pnpm run \"/^build:.*/\"",
+    "build": "pnpm clear-dist && pnpm run \"/^build:.*/\" && cat dist/*/_redirects > dist/_redirects",
     "export": "slidev export",
     "build:nix": "slidev build nix/slides.md --base /nix/ --out ../dist/nix",
     "dev:nix": "slidev nix/slides.md",
