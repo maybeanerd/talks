@@ -7,7 +7,9 @@
     "build": "pnpm clear-dist && pnpm run \"/^build:.*/\"",
     "export": "slidev export",
     "build:nix": "slidev build nix/slides.md --base /nix/ --out ../dist/nix",
-    "dev:nix": "slidev nix/slides.md"
+    "dev:nix": "slidev nix/slides.md",
+    "build:activitypub": "slidev build activitypub/slides.md --base /activitypub/ --out ../dist/activitypub",
+    "dev:activitypub": "slidev activitypub/slides.md"
   },
   "devDependencies": {
     "@iconify-json/logos": "1.2.11",
