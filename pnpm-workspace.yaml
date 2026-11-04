@@ -1,4 +1,9 @@
-onlyBuiltDependencies:
-  - esbuild
-  - playwright-chromium
-  - vue-demi
+saveExact: true
+shamefullyHoist: true
+strictPeerDependencies: false
+autoInstallPeers: true
+
+allowBuilds:
+  esbuild: true
+  playwright-chromium: true
+  vue-demi: true
