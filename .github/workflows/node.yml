@@ -1,0 +1,26 @@
+name: Node
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6.0.3
+      - name: Use Node.js
+        uses: actions/setup-node@v6.4.0
+        with:
+          node-version-file: '.nvmrc'
+      - name: use pnpm
+        run: corepack enable pnpm
+      - name: pnpm i
+        run: pnpm i
+      - name: build
+        run: pnpm build
