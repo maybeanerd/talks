@@ -150,7 +150,6 @@ vite.config.ts.timestamp-*
 
 # slidev
 dist
-index.html
 .remote-assets
 components.d.ts
 
