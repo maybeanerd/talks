@@ -178,9 +178,6 @@ importers:
       '@slidev/theme-apple-basic':
         specifier: 0.25.1
         version: 0.25.1
-      markdown-it:
-        specifier: 14.3.3
-        version: 14.3.3
       playwright-chromium:
         specifier: 1.64.1
         version: 1.64.1
