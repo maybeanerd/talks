@@ -5,5 +5,8 @@ autoInstallPeers: true
 
 allowBuilds:
   esbuild: true
-  playwright-chromium: true
   vue-demi: true
+
+# keep slidev's optional pdf-export peer out, so installs don't download chromium
+overrides:
+  playwright-chromium: '-'
