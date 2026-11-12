@@ -147,3 +147,15 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# slidev
+dist
+.remote-assets
+components.d.ts
+
+# devenv
+.devenv*
+devenv.local.nix
+.direnv
+devenv.local.yaml
+.envrc.private
