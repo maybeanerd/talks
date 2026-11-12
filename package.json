@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "clear-dist": "rimraf ./dist",
+    "cf:deploy": "wrangler deploy",
+    "cf:preview": "wrangler versions upload",
     "build": "pnpm clear-dist && pnpm run \"/^build:.*/\" && cat dist/*/_redirects > dist/_redirects && cp index.html dist/",
     "build:nix": "slidev build nix/slides.md --base /nix/ --out ../dist/nix",
     "dev:nix": "slidev nix/slides.md",
@@ -15,7 +17,8 @@
     "@iconify-json/mdi": "1.2.3",
     "@slidev/cli": "53.0.0",
     "@slidev/theme-apple-basic": "0.25.1",
-    "rimraf": "6.1.3"
+    "rimraf": "6.1.3",
+    "wrangler": "4.160.0"
   },
   "packageManager": "pnpm@12.9.0"
 }
