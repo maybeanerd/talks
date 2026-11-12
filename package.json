@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "clear-dist": "rimraf ./dist",
+    "cf:deploy": "wrangler deploy",
+    "cf:preview": "wrangler versions upload",
     "build": "pnpm clear-dist && pnpm run \"/^build:.*/\" && cat dist/*/_redirects > dist/_redirects && cp index.html dist/",
     "build:nix": "slidev build nix/slides.md --base /nix/ --out ../dist/nix",
     "dev:nix": "slidev nix/slides.md",
