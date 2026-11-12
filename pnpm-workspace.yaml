@@ -6,7 +6,6 @@ autoInstallPeers: true
 allowBuilds:
   esbuild: true
   vue-demi: true
-  workerd: true
 
 # keep slidev's optional pdf-export peer out, so installs don't download chromium
 overrides:
