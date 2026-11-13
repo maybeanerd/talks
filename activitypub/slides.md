@@ -1,6 +1,6 @@
 ---
 addons:
-  - ../shared
+  - ./shared
 theme: apple-basic
 title: Abusing ActivityPub to federate game servers
 info: |
