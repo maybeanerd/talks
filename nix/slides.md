@@ -1,17 +1,18 @@
 ---
 theme: apple-basic
-highlighter: shiki
+routerMode: "hash"
+highlighter: "shiki"
 lineNumbers: true
+author: "Sebastian Di Luzio"
+drawings:
+  persist": false
+mdc": true
+transition": "slide-left"
+
 title: nix
 info: |
   ## nix
   A talk about nix, nixos, and how I use it for development and daily computing.
-author: Sebastian Di Luzio
-drawings:
-  persist: false
-mdc: true
-transition: slide-left
-
 layout: intro-image
 image: '/images/nixos-wallpaper.png'
 

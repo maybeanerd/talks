@@ -1,21 +1,21 @@
 ---
 theme: apple-basic
-
-highlighter: shiki
+routerMode: "hash"
+highlighter: "shiki"
 lineNumbers: true
+author: "Sebastian Di Luzio"
+drawings:
+  persist": false
+mdc": true
+transition": "slide-left"
+
 title: Abusing ActivityPub to federate game servers
 info: |
   Abusing ActivityPub to federate game servers
   A deeper look into what powers the Social Web.
 favicon: /images/fediverse-logo.png
-drawings:
-  persist: false
-mdc: true
-transition: none
 defaults:
   layout: quote
-  transition: slide-left
-
 layout: intro
 ---
 
