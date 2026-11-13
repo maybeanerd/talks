@@ -1,21 +1,14 @@
 ---
+addons:
+  - ../shared
 theme: apple-basic
-
-highlighter: shiki
-lineNumbers: true
 title: Abusing ActivityPub to federate game servers
 info: |
   Abusing ActivityPub to federate game servers
   A deeper look into what powers the Social Web.
 favicon: /images/fediverse-logo.png
-drawings:
-  persist: false
-mdc: true
-transition: none
 defaults:
   layout: quote
-  transition: slide-left
-
 layout: intro
 ---
 

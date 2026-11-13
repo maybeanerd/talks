@@ -1,17 +1,11 @@
 ---
+addons:
+  - ../shared
 theme: apple-basic
-highlighter: shiki
-lineNumbers: true
 title: nix
 info: |
   ## nix
   A talk about nix, nixos, and how I use it for development and daily computing.
-author: Sebastian Di Luzio
-drawings:
-  persist: false
-mdc: true
-transition: slide-left
-
 layout: intro-image
 image: '/images/nixos-wallpaper.png'
 
