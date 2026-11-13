@@ -1,7 +1,14 @@
 ---
-addons:
-  - ./shared
 theme: apple-basic
+routerMode: "hash"
+highlighter: "shiki"
+lineNumbers: true
+author: "Sebastian Di Luzio"
+drawings:
+  persist": false
+mdc": true
+transition": "slide-left"
+
 title: nix
 info: |
   ## nix

@@ -17,5 +17,16 @@
     "@slidev/theme-apple-basic": "0.25.1",
     "rimraf": "6.1.3"
   },
+  "slidev": {
+    "defaults": {
+      "routerMode": "hash",
+      "highlighter": "shiki",
+      "lineNumbers": true,
+      "author": "Sebastian Di Luzio",
+      "drawings": { "persist": false },
+      "mdc": true,
+      "transition": "slide-left"
+    }
+  },
   "packageManager": "pnpm@12.9.0"
 }
